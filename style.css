@@ -1,0 +1,217 @@
+body{
+  background-color: lightblue;
+}
+header{
+  width: 100%;
+  background-color: black;
+  position: fixed;
+  top: 0;
+  left: 0;
+  min-height: 100px;
+  margin: 0 auto;
+  display:flex;
+  justify-content:space-between;
+  align-items: center;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+header nav{
+  margin-right: 12px;
+}
+footer{
+  background-color: black;
+  min-height: 60px;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+
+}
+nav a{
+  color: white;
+  margin-left:0;
+  margin-right:0;
+  border: 1px solid;
+  text-decoration: none;
+  padding: 7px;
+}
+h1,p{
+  color: white;
+  text-align: center;
+}
+ul{
+  list-style-type: none;
+  margin:0;
+  padding:0;
+}
+li a{
+  color: white;
+  display:block;
+  padding: 8px 16px;
+  text-align: center;
+  text-decoration: none;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+li a:hover{
+  background-color: #555;
+}
+h2{
+  color: white;
+  padding-left: 10px;
+}
+.container{
+
+  max-width:1024px;
+  min-height: 550px;
+  display: flex;
+  margin: 140px auto 5px auto;
+  justify-content: space-around;
+}
+.side-menu{
+  background-color: rgba(0, 0, 0, 0.1);
+  min-height: 300px;
+  width: 25%;
+  text-align: center;
+  border-radius: 7px;
+}
+.side-menu a{
+  margin-top: 10px;
+}
+.side-menu img{
+  height: auto;
+  width:90%;;
+  margin:10px auto;
+  border-radius: 10px;
+
+}
+.textcenter{
+  text-align:center !important;
+  font-size: 20px;
+}
+.me,.notme{
+  padding: 10px;
+  margin: 10px 10px;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+.a{
+  max-width: 1400px;
+}
+.main-menu{
+  background-color: rgba(0, 0, 0, 0.2);
+  min-height: 300px;
+  width: 75%;
+  display: flex;
+  justify-content:space-around;
+  padding-top: 10px;
+  text-align: center;
+  border-radius: 7px;
+}
+.card{
+  background-color:background-color: #D9AFD9;
+background-image: linear-gradient(45deg, #D9AFD9 0%, #97D9E1 100%);
+
+
+    border-radius: 7px;
+    box-shadow: 5px 5px lightblue;
+    padding: 30px 30px 30px 30px;
+    box-sizing: border-box;
+    max-height:350px;
+    width: 30%;
+}
+.card i{
+  font-size: 70px;
+  color: white;
+}
+.aboutus-image{
+  height:200px;
+  width:auto;
+  border-radius: 100px;
+}
+.p-about{
+  color: black;
+}
+.form{
+  padding-left: 10px;
+}
+.c-h1{
+  text-align: left;
+  padding-left: 10px;
+}
+.nav-b{
+  display: block;
+  background-color: grey;
+  padding: 15px 30px;
+  margin-left: -70px;
+  text-align: center;
+}
+.dropdown{
+  display: none;
+}
+.a.main-menu{
+  text-align: left;
+  display: block;
+}
+.main-menu p{
+  text-align: left;
+  margin-bottom: 0px;
+}
+.p-about{
+  color: black;
+}
+.form{
+  padding-left: 10px;
+  text-align: left;
+}
+
+.c-h1{
+  text-align: left;
+  padding-left: 10px;
+}
+.menu a:hover{
+  background-color: grey;
+}
+.form{
+  margin-left: 10px;
+}
+.input-form{
+  width: 98%;
+  height: 20px;
+  border: 1px solid black;
+  border-radius: 3px;
+  margin-bottom: 10px;
+}
+.submit-button{
+  height: 40px;
+  width: 90px;
+}
+.schedule p{
+  text-align: center;
+}
+.btn-main{
+  background-color:#97D9E1;
+}
+.p-card{
+  font-size: 20px;
+  text-align: justify;
+}
+.my-hobbies-list{
+  color: white;
+  padding-top: 5px;
+  font-size: 20px;
+}
+.h2-mybobbies{
+  background-color: rgba(255, 0, 0, 0.1);
+  border-radius: 7px;
+}
+
+input{
+  border: 1px solid black;
+  border-radius: 3px;
+}
+textarea{
+  border: 1px solid black;
+  border-radius: 3px;
+}
